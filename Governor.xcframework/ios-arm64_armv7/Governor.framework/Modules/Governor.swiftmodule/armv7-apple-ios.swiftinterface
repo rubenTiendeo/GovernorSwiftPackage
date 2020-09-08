@@ -8,9 +8,9 @@ import Foundation
 import ObjectMapper
 import Swift
 @_hasMissingDesignatedInitializers public class ClientParser {
-  public static let sharedInstance: Governor.ClientParser
-  public func getClient(_ countryCode: Swift.String?) -> Governor.ClientEntity?
-  public func getClient() -> Governor.ClientEntity
+  public static let sharedInstance: ClientParser
+  public func getClient(_ countryCode: Swift.String?) -> ClientEntity?
+  public func getClient() -> ClientEntity
   @objc deinit
 }
 public struct ClientEntity {
@@ -35,8 +35,8 @@ extension GovernorSessionManager {
   public func authRequest(_ urlRequest: Alamofire.URLRequestConvertible, responseJSON: @escaping (Alamofire.DataResponse<Any>) -> Swift.Void) -> Alamofire.DataRequest
 }
 @_hasMissingDesignatedInitializers public class Governor {
-  public static let sharedInstance: Governor.Governor
-  final public let sessionManager: Governor.GovernorSessionManager
+  public static let sharedInstance: Governor
+  final public let sessionManager: GovernorSessionManager
   public func setTiendeoKey(tiendeoKey: Swift.String)
   public func resetCache()
   public func increaseCacheSize(memoryCapacity: Swift.Int, diskCapacity: Swift.Int)
