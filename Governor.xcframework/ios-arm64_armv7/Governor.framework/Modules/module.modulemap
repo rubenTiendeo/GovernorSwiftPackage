@@ -1,0 +1,11 @@
+framework module Governor {
+  umbrella header "Governor.h"
+
+  export *
+  module * { export * }
+}
+
+module Governor.Swift {
+    header "Governor-Swift.h"
+    requires objc
+}

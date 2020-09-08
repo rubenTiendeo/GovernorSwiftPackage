@@ -1,0 +1,44 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.28.1 clang-1200.0.30.1)
+// swift-module-flags: -target armv7-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Governor
+import Alamofire
+import AlamofireObjectMapper
+import Foundation
+@_exported import Governor
+import ObjectMapper
+import Swift
+@_hasMissingDesignatedInitializers public class ClientParser {
+  public static let sharedInstance: Governor.ClientParser
+  public func getClient(_ countryCode: Swift.String?) -> Governor.ClientEntity?
+  public func getClient() -> Governor.ClientEntity
+  @objc deinit
+}
+public struct ClientEntity {
+  public let provider: Swift.String
+  public let baseUrl: Swift.String
+  public let context: Swift.String
+  public let contextGeofences: Swift.String
+  public let countryCode: Swift.String
+  public let consumerKey: Swift.String
+  public let consumerSecret: Swift.String
+  public let backupUrl: Swift.String
+}
+@_hasMissingDesignatedInitializers public class GovernorSessionManager : Alamofire.SessionManager {
+  @objc deinit
+  override public init(configuration: Foundation.URLSessionConfiguration = super, delegate: Alamofire.SessionDelegate = super, serverTrustPolicyManager: Alamofire.ServerTrustPolicyManager? = super)
+  override public init?(session: Foundation.URLSession, delegate: Alamofire.SessionDelegate, serverTrustPolicyManager: Alamofire.ServerTrustPolicyManager? = super)
+}
+extension GovernorSessionManager {
+  public func authRequest<T>(_ urlRequest: Alamofire.URLRequestConvertible, responseArray: @escaping (Alamofire.DataResponse<[T]>) -> Swift.Void) -> Alamofire.DataRequest where T : ObjectMapper.BaseMappable
+  public func authRequest<T>(_ urlRequest: Alamofire.URLRequestConvertible, responseObject: @escaping (Alamofire.DataResponse<T>) -> Swift.Void) -> Alamofire.DataRequest where T : ObjectMapper.BaseMappable
+  public func authRequest(_ urlRequest: Alamofire.URLRequestConvertible, responseString: @escaping (Alamofire.DataResponse<Swift.String>) -> Swift.Void) -> Alamofire.DataRequest
+  public func authRequest(_ urlRequest: Alamofire.URLRequestConvertible, responseJSON: @escaping (Alamofire.DataResponse<Any>) -> Swift.Void) -> Alamofire.DataRequest
+}
+@_hasMissingDesignatedInitializers public class Governor {
+  public static let sharedInstance: Governor.Governor
+  final public let sessionManager: Governor.GovernorSessionManager
+  public func setTiendeoKey(tiendeoKey: Swift.String)
+  public func resetCache()
+  public func increaseCacheSize(memoryCapacity: Swift.Int, diskCapacity: Swift.Int)
+  @objc deinit
+}
