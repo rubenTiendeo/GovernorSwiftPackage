@@ -6,13 +6,13 @@ import PackageDescription
 let package = Package(
     name: "GovernorSwiftPackage",
     platforms: [
-      .iOS(.v12)
+      .iOS(.v10)
     ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "GovernorSwiftPackage",
-            targets: ["GovernorSwiftPackage"]),
+            targets: ["Governor"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -22,9 +22,6 @@ let package = Package(
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
-        .target(
-            name: "GovernorSwiftPackage",
-            dependencies: ["Governor"]),
         .binaryTarget(name: "Governor",
                               url:"https://tiendeo.jfrog.io/artifactory/pods/Governor/Governor-1.0.5-APPS-1400-beta30.zip", checksum: "1caad1cb2c05b40f0348166756c64f3a35836757c30482fcae80256289d16f74")
     ]
