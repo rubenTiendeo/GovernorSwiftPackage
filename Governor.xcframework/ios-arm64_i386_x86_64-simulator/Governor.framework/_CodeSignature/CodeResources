@@ -4,37 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/Pods_Governor.framework/Info.plist</key>
-		<data>
-		tUTc6ulK9b/ueydYRCK3ORL30tc=
-		</data>
-		<key>Frameworks/Pods_Governor.framework/Pods_Governor</key>
-		<data>
-		Z/o1f3+6QtaCz4sFh9GtG4n67rw=
-		</data>
-		<key>Frameworks/Pods_Governor.framework/_CodeSignature/CodeDirectory</key>
-		<data>
-		CIZVPLDb/VCZjSVao2+0VPEM1Uc=
-		</data>
-		<key>Frameworks/Pods_Governor.framework/_CodeSignature/CodeRequirements</key>
-		<data>
-		OnX22wWFKRSOFN1+obRynMCeyXM=
-		</data>
-		<key>Frameworks/Pods_Governor.framework/_CodeSignature/CodeRequirements-1</key>
-		<data>
-		NoRLuZHcGRWvoYQvVOA+C4jZDIA=
-		</data>
-		<key>Frameworks/Pods_Governor.framework/_CodeSignature/CodeResources</key>
-		<data>
-		8zhop1LO5Utm5cMPBdWxjAqIOog=
-		</data>
-		<key>Frameworks/Pods_Governor.framework/_CodeSignature/CodeSignature</key>
-		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
-		</data>
 		<key>Headers/Governor-Swift.h</key>
 		<data>
-		UVz1yx8iMwYI44w3FZeukzx4iqc=
+		kAHAE8YKGUsjpw0Wh8Dsjf3xLYI=
 		</data>
 		<key>Headers/Governor.h</key>
 		<data>
@@ -42,23 +14,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		DMpgG2+T5rRxVKSXuJU50i9ZLzo=
+		OBEIQCD/L6ZS30nMEpuPtLB1Yqk=
 		</data>
-		<key>Modules/Governor.swiftmodule/Project/i386-apple-ios-simulator.swiftsourceinfo</key>
+		<key>Modules/Governor.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		wpScmAw7q0W/yBgEWU2XgYLHT10=
+		HiPCrk8RE77mazVaTReVcPwqPuA=
 		</data>
-		<key>Modules/Governor.swiftmodule/Project/i386.swiftsourceinfo</key>
+		<key>Modules/Governor.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		wpScmAw7q0W/yBgEWU2XgYLHT10=
+		iLbYoMbu75+R2U6OcPhX/l6D3Wg=
 		</data>
-		<key>Modules/Governor.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>Modules/Governor.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rMq95rCYa2y/5jIHBkCMEP3gAB8=
+		I47jNCRj+IbOo8O1FMrxKBeyTqI=
 		</data>
-		<key>Modules/Governor.swiftmodule/Project/x86_64.swiftsourceinfo</key>
+		<key>Modules/Governor.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		rMq95rCYa2y/5jIHBkCMEP3gAB8=
+		HiPCrk8RE77mazVaTReVcPwqPuA=
+		</data>
+		<key>Modules/Governor.swiftmodule/arm64.swiftinterface</key>
+		<data>
+		iLbYoMbu75+R2U6OcPhX/l6D3Wg=
+		</data>
+		<key>Modules/Governor.swiftmodule/arm64.swiftmodule</key>
+		<data>
+		I47jNCRj+IbOo8O1FMrxKBeyTqI=
 		</data>
 		<key>Modules/Governor.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -70,7 +50,7 @@
 		</data>
 		<key>Modules/Governor.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		HLbYroyZrmD7X4fa54Z+uET/dzw=
+		OAG338iD/vKOLqf99Y8Wdq46q8c=
 		</data>
 		<key>Modules/Governor.swiftmodule/i386.swiftdoc</key>
 		<data>
@@ -82,7 +62,7 @@
 		</data>
 		<key>Modules/Governor.swiftmodule/i386.swiftmodule</key>
 		<data>
-		HLbYroyZrmD7X4fa54Z+uET/dzw=
+		OAG338iD/vKOLqf99Y8Wdq46q8c=
 		</data>
 		<key>Modules/Governor.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -94,7 +74,7 @@
 		</data>
 		<key>Modules/Governor.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		xHYBjLSL8qyeaIF0CKEyzUI0+cY=
+		UOmYsgUCMRo1JIlbCoIYc3T3oGg=
 		</data>
 		<key>Modules/Governor.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -106,7 +86,7 @@
 		</data>
 		<key>Modules/Governor.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		xHYBjLSL8qyeaIF0CKEyzUI0+cY=
+		UOmYsgUCMRo1JIlbCoIYc3T3oGg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -119,92 +99,15 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/Pods_Governor.framework/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			tUTc6ulK9b/ueydYRCK3ORL30tc=
-			</data>
-			<key>hash2</key>
-			<data>
-			gOkTOg2ZBEYOsJq98r3QmIPV7fKiJqh5VmUZJT/FD0g=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_Governor.framework/Pods_Governor</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Z/o1f3+6QtaCz4sFh9GtG4n67rw=
-			</data>
-			<key>hash2</key>
-			<data>
-			EAZjqancndqhFQ/+QPNyKHH1hcStjURXXOjLJQ2c/yc=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_Governor.framework/_CodeSignature/CodeDirectory</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			CIZVPLDb/VCZjSVao2+0VPEM1Uc=
-			</data>
-			<key>hash2</key>
-			<data>
-			pEY6ZOo5xGqJTvwSyt8U93CqZCCSi4Vw15NtpEo8nbM=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_Governor.framework/_CodeSignature/CodeRequirements</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			OnX22wWFKRSOFN1+obRynMCeyXM=
-			</data>
-			<key>hash2</key>
-			<data>
-			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_Governor.framework/_CodeSignature/CodeRequirements-1</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			NoRLuZHcGRWvoYQvVOA+C4jZDIA=
-			</data>
-			<key>hash2</key>
-			<data>
-			qVp+iPEIzBG+uIAIx8HvaQOc2voyoQaZo7DmjeEm1XM=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_Governor.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			8zhop1LO5Utm5cMPBdWxjAqIOog=
-			</data>
-			<key>hash2</key>
-			<data>
-			GwseH5kf77BNZleZOiA36tUea36v1ZHLSikFER6rSFE=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_Governor.framework/_CodeSignature/CodeSignature</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2jmj7l5rSw0yVb/vlWAYkK/YBwk=
-			</data>
-			<key>hash2</key>
-			<data>
-			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
-			</data>
-		</dict>
 		<key>Headers/Governor-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UVz1yx8iMwYI44w3FZeukzx4iqc=
+			kAHAE8YKGUsjpw0Wh8Dsjf3xLYI=
 			</data>
 			<key>hash2</key>
 			<data>
-			Tj1PyDC+CERLwr35Ey8hAyUamQ+NiP581c52UEiVLu8=
+			0Ih326m/6+tudJ8PL/pmG7EYjFAhSMNG8B8BuufHv18=
 			</data>
 		</dict>
 		<key>Headers/Governor.h</key>
@@ -218,48 +121,70 @@
 			ArJk9XLq/EGkbK7SkT0taGR79xQSUwHj+S5WnryyJvo=
 			</data>
 		</dict>
-		<key>Modules/Governor.swiftmodule/Project/i386-apple-ios-simulator.swiftsourceinfo</key>
+		<key>Modules/Governor.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wpScmAw7q0W/yBgEWU2XgYLHT10=
+			HiPCrk8RE77mazVaTReVcPwqPuA=
 			</data>
 			<key>hash2</key>
 			<data>
-			kzPabbbh49L7SRdwzPO2eGTYjFLKup7cDiCe1r2RDIk=
+			ZhrRpIfIMam75iw0rDNZkXZLmannDUZt8glEJ5b1ipw=
 			</data>
 		</dict>
-		<key>Modules/Governor.swiftmodule/Project/i386.swiftsourceinfo</key>
+		<key>Modules/Governor.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wpScmAw7q0W/yBgEWU2XgYLHT10=
+			iLbYoMbu75+R2U6OcPhX/l6D3Wg=
 			</data>
 			<key>hash2</key>
 			<data>
-			kzPabbbh49L7SRdwzPO2eGTYjFLKup7cDiCe1r2RDIk=
+			JR8CWewRD8DoQJMv+qBB0jafTStljTmJhUT4RkSYwVU=
 			</data>
 		</dict>
-		<key>Modules/Governor.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>Modules/Governor.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rMq95rCYa2y/5jIHBkCMEP3gAB8=
+			I47jNCRj+IbOo8O1FMrxKBeyTqI=
 			</data>
 			<key>hash2</key>
 			<data>
-			EUjSmV6wd1/VBZgg7iOTJTKJ/kYft86VHh13ZIncOTY=
+			xWZusisa5fHYs2t61kPwjwZaxj9lrCzAdJNP44+rjR0=
 			</data>
 		</dict>
-		<key>Modules/Governor.swiftmodule/Project/x86_64.swiftsourceinfo</key>
+		<key>Modules/Governor.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rMq95rCYa2y/5jIHBkCMEP3gAB8=
+			HiPCrk8RE77mazVaTReVcPwqPuA=
 			</data>
 			<key>hash2</key>
 			<data>
-			EUjSmV6wd1/VBZgg7iOTJTKJ/kYft86VHh13ZIncOTY=
+			ZhrRpIfIMam75iw0rDNZkXZLmannDUZt8glEJ5b1ipw=
+			</data>
+		</dict>
+		<key>Modules/Governor.swiftmodule/arm64.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			iLbYoMbu75+R2U6OcPhX/l6D3Wg=
+			</data>
+			<key>hash2</key>
+			<data>
+			JR8CWewRD8DoQJMv+qBB0jafTStljTmJhUT4RkSYwVU=
+			</data>
+		</dict>
+		<key>Modules/Governor.swiftmodule/arm64.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			I47jNCRj+IbOo8O1FMrxKBeyTqI=
+			</data>
+			<key>hash2</key>
+			<data>
+			xWZusisa5fHYs2t61kPwjwZaxj9lrCzAdJNP44+rjR0=
 			</data>
 		</dict>
 		<key>Modules/Governor.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
@@ -288,11 +213,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HLbYroyZrmD7X4fa54Z+uET/dzw=
+			OAG338iD/vKOLqf99Y8Wdq46q8c=
 			</data>
 			<key>hash2</key>
 			<data>
-			rZCgvHWOhfa0fJ7b1rP5Bww1nuiPazz00naN75JzjKA=
+			rdJx2VDZ0Gdy6mqsgmRgnp85Xlx/Mds7mcIPyih+BDU=
 			</data>
 		</dict>
 		<key>Modules/Governor.swiftmodule/i386.swiftdoc</key>
@@ -321,11 +246,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HLbYroyZrmD7X4fa54Z+uET/dzw=
+			OAG338iD/vKOLqf99Y8Wdq46q8c=
 			</data>
 			<key>hash2</key>
 			<data>
-			rZCgvHWOhfa0fJ7b1rP5Bww1nuiPazz00naN75JzjKA=
+			rdJx2VDZ0Gdy6mqsgmRgnp85Xlx/Mds7mcIPyih+BDU=
 			</data>
 		</dict>
 		<key>Modules/Governor.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -354,11 +279,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xHYBjLSL8qyeaIF0CKEyzUI0+cY=
+			UOmYsgUCMRo1JIlbCoIYc3T3oGg=
 			</data>
 			<key>hash2</key>
 			<data>
-			6PRmxcEe75r454BsyPTQAOHYdiwKgY+hU7MQRaSamNA=
+			W09ZVfwutliqPr8mXyNDP0Rh5Gbqn9SM8FuUOW/dLlg=
 			</data>
 		</dict>
 		<key>Modules/Governor.swiftmodule/x86_64.swiftdoc</key>
@@ -387,11 +312,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xHYBjLSL8qyeaIF0CKEyzUI0+cY=
+			UOmYsgUCMRo1JIlbCoIYc3T3oGg=
 			</data>
 			<key>hash2</key>
 			<data>
-			6PRmxcEe75r454BsyPTQAOHYdiwKgY+hU7MQRaSamNA=
+			W09ZVfwutliqPr8mXyNDP0Rh5Gbqn9SM8FuUOW/dLlg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
