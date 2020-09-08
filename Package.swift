@@ -27,6 +27,6 @@ let package = Package(
             dependencies: ["Governor"],
             path: "Sources"),
         .binaryTarget(name: "Governor",
-                              url:"https://tiendeo.jfrog.io/artifactory/pods/Governor/Governor-1.0.5-APPS-1400-beta24.zip", checksum: "7f42fd9ad42939d65048fe535f9dd13078e4b35c59e9d8775a3f8b8eb9ec40ea")
+                              url:"https://tiendeo.jfrog.io/artifactory/pods/Governor/Governor-1.0.5-APPS-1400-beta30.zip", checksum: "1caad1cb2c05b40f0348166756c64f3a35836757c30482fcae80256289d16f74")
     ]
 )
