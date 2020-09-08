@@ -24,8 +24,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "GovernorSwiftPackage",
-            dependencies: ["Governor"],
-            path: "Sources"),
+            dependencies: ["Governor"]),
         .binaryTarget(name: "Governor",
                               url:"https://tiendeo.jfrog.io/artifactory/pods/Governor/Governor-1.0.5-APPS-1400-beta30.zip", checksum: "1caad1cb2c05b40f0348166756c64f3a35836757c30482fcae80256289d16f74")
     ]
